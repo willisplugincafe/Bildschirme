@@ -1,0 +1,8 @@
+# FFmpeg and yt-dlp must be installed on the host.
+ffmpeg: ffmpeg
+ytdlp: yt-dlp
+fps: 4
+max-width: 8
+max-height: 5
+# Only operators with videoscreen.admin can supply URLs.
+# Prefer local MP4 files in plugins/VideoScreenPro/videos/.

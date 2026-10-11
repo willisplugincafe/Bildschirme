@@ -1,0 +1,12 @@
+name: VideoScreenPro
+version: 1.0.0
+main: de.videoscreenpro.VideoScreenPro
+api-version: '26.3'
+author: OpenAI
+commands:
+  screen:
+    description: Manage video screens
+    usage: /screen help
+permissions:
+  videoscreen.admin:
+    default: op
